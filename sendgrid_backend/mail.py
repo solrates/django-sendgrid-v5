@@ -13,7 +13,7 @@ from django.core.exceptions import ImproperlyConfigured
 from django.core.mail import EmailMultiAlternatives
 from django.core.mail.backends.base import BaseEmailBackend
 
-import sendgrid
+import sendgrid.sendgrid
 from sendgrid.helpers.mail import (
     ASM, Attachment, Category, Content, Email, Header, Mail, MailSettings, OpenTracking,
     Personalization, SandBoxMode, Substitution, TrackingSettings, CustomArg
